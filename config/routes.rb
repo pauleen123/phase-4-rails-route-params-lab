@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   
   #solution
   get '/students/:id', to: 'students#show'
+  
 end
